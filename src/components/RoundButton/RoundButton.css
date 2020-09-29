@@ -1,0 +1,17 @@
+.round-button {
+  padding: 20px 50px;
+  border-radius: 50px;
+  border: none;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 14pt;
+  background: linear-gradient(
+    43deg,
+    rgba(221, 190, 92, 1) 58%,
+    rgba(194, 148, 2, 1) 100%
+  );
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 18px;
+  text-decoration: none;
+}

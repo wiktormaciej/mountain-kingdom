@@ -1,0 +1,32 @@
+body {
+  background: url("../../assets/images/Bg_banner.png") no-repeat center center
+    fixed;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  font-family: "Josefin Sans";
+  letter-spacing: 2px;
+}
+.footer-container {
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  max-height: 20vh;
+}
+.content-container {
+  padding-bottom: 20vh;
+  min-height: 80vh;
+  box-sizing: border-box;
+  display: flex;
+}
+.header-container {
+  min-height: 20vh;
+  box-sizing: border-box;
+}
+.main-layout {
+  position: relative;
+  min-height: 100vh;
+}

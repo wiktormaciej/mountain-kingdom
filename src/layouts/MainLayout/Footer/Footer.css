@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b7b7b7;
+  height: 43px;
+  padding: 0px 89px 0px 89px;
+  letter-spacing: 1px;
+  font-size: 11pt;
+}
+.footer > * {
+  width: 300px;
+}
+.middle-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 200px;
+}
+.right-footer {
+  text-align: right;
+}
+.glow-on-hover:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  cursor: pointer;
+}
+.cookies-button,
+.privacy-button {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer > * {
+    text-align: center;
+    margin-top: 10px;
+  }
+}

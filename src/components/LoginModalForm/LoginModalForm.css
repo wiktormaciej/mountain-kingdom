@@ -1,0 +1,22 @@
+.login-modal-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.login-modal-title {
+  display: flex;
+  align-items: center;
+}
+.login-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px 50px;
+  line-height: 18pt;
+}
