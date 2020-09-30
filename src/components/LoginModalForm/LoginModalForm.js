@@ -6,7 +6,7 @@ import signIn from '../../utils/fetchAPI'
 import LoadingIndicator from '../LoadingIndicator/LoadingIndicator'
 import Error from '../Error/Error'
 import SuccessBar from '../SuccessBar/SuccessBar'
-const LoginModalContent = () => {
+const LoginModalForm = () => {
     const [isLoading, setIsLoading] = useState(false)
     const [errorMessage, setErrorMessage] = useState('')
     const [successMessage, setSuccessMessage] = useState('')
@@ -45,4 +45,4 @@ const LoginModalContent = () => {
             <RoundButton type="submit">LOG IN</RoundButton>
         </form>)
 }
-export default LoginModalContent
+export default LoginModalForm
